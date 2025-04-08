@@ -1,11 +1,11 @@
 import requests
 from Send_email import send_email
 
-api_key = "c57f44575ba549d787810c575c539e52"
+api_key = "PASSWORD"
 url = ("https://newsapi.org/v2/top-headlines?"
        "country=us&"
        "category=business"
-       "&apiKey=c57f44575ba549d787810c575c539e52&"
+       "&apiKey=PASSWORD&"
        "language=en")
 
 # Make request
